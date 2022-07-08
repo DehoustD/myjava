@@ -6,16 +6,17 @@ public class ex1 {
 
         Scanner input = new Scanner(System.in);
         
-        System.out.println("Quel est ton prénom ?");
+        System.out.print("Quel est ton prénom ? ");
         String prenom = input.nextLine();
 
-        System.out.println("Quel est ton nom ?");
-        String nom = input.nextLine();
-
-        System.out.println(prenom +);
+        System.out.print("Quel est ton nom ? ");
+        String nom = input.nextLine();        
 
         input.close();
-        // salut
-    
+
+        DisplayName(prenom, nom);
+    }
+    static void DisplayName(String _prenom, String _nom){
+        System.out.println(_prenom + " " + _nom);
     }
 }
