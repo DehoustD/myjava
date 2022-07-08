@@ -14,9 +14,13 @@ public class ex1 {
 
         input.close();
 
-        DisplayName(prenom, nom);
+        DisplayFirstName(prenom);
     }
     static void DisplayName(String _prenom, String _nom){
         System.out.println(_prenom + " " + _nom);
+    }
+
+    static void DisplayFirstName(String _prenom){
+        System.out.println(_prenom);
     }
 }
