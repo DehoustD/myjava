@@ -14,10 +14,14 @@ public class ex1 {
 
         input.close();
 
-        DisplayFirstName(prenom);
+        DisplayFullName(prenom, nom);
     }
-    static void DisplayName(String _prenom, String _nom){
-        System.out.println(_prenom + " " + _nom);
+    static void DisplayFullName(String _prenom, String _nom){
+        if(_prenom.equals("David") && _nom.equals("Dehoust")){
+            System.out.println("Bonjour admin");
+        } else{
+            System.out.println(_prenom + " " + _nom);
+        }
     }
 
     static void DisplayFirstName(String _prenom){
